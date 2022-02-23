@@ -73,6 +73,12 @@ disable_overscan=1
 # This line should be removed if the legacy DWC2 controller is required
 # (e.g. for USB device mode) or if USB support is not required.
 otg_mode=1
+# Run as fast as firmware / board allows
+arm_boost=1
+# Enable RTC
+dtparam=i2c_arm=on
+dtparam=i2c_vc=on
+dtoverlay=i2c-rtc,pcf85063a,i2c_csi_dsi
 
 [all]
 
