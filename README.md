@@ -27,7 +27,7 @@ Getting started is as simple as cloning this repository on your build machine. Y
 can do so with:
 
 ```bash
-git clone -–depth 1 https://github.com/RPI-Distro/pi-gen.git
+git clone -–depth 1 https://github.com/1stcall/pi-gen.git
 ```
 
 Using `--depth 1` with `git clone` will create a shallow clone, only containing
@@ -51,7 +51,7 @@ The following environment variables are supported:
  * `IMG_NAME` **required** (Default: unset)
 
    The name of the image to build with the current stage directories.  Setting
-   `IMG_NAME=Raspbian` is logical for an unmodified RPi-Distro/pi-gen build,
+   `IMG_NAME=Raspbian` is logical for an unmodified 1stcall/pi-gen build,
    but you should use something else for a customized version.  Export files
    in stages may add suffixes to `IMG_NAME`.
 
@@ -454,7 +454,7 @@ Now you should be able to start a new build without running into troubles again.
 # Troubleshooting
 
 ## `64 Bit Systems`
-Please note there is currently an issue when compiling with a 64 Bit OS. See https://github.com/RPi-Distro/pi-gen/issues/271
+Please note there is currently an issue when compiling with a 64 Bit OS. See https://github.com/1stcall/pi-gen/issues/271
 
 ## `binfmt_misc`
 
